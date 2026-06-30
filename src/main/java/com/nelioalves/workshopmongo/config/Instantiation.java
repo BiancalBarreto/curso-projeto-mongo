@@ -10,7 +10,7 @@ import com.nelioalves.workshopmongo.domain.User;
 import com.nelioalves.workshopmongo.repository.UserRepository;
 
 @Configuration
-public class Instantiation  implements CommandLineRunner {
+public class Instantiation implements CommandLineRunner {
     @Autowired
     private UserRepository userRepository;
 
